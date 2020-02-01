@@ -6,7 +6,7 @@ namespace DeltaWebMapCanvas
 {
     public class ServiceConfig
     {
-        public string database_config = "E:\\database_config.json";
+        public string database_config = @"C:\Users\Roman\Documents\delta_dev\backend\database_config.json";
         public int port = 43282;
         public int buffer_size = 512;
         public int timeout_seconds = 8;

@@ -166,6 +166,7 @@ namespace DeltaWebMapCanvas
         private void DoAutosave(object sender, ElapsedEventArgs e)
         {
             Save().GetAwaiter().GetResult();
+            //TODO: Handle errors here
         }
 
         /// <summary>
